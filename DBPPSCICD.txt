@@ -11,3 +11,7 @@ git clone https://github.com/gonzo1964-FXDL/CI-CD.git
 git status
 
 git add *
+
+git commit -m "Update Text file"
+
+git push -u origin main
