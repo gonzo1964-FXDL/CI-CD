@@ -1,0 +1,8 @@
+
+
+ctm deploy jobs::get JSON -s "ctm=*&folder=DBPPSCICD" 
+
+
+ctm deploy jobs::get JSON -s "ctm=*&folder=DBPPSCICD" >> "D:\X-Work\Home\6 - Daily Action\Documents\2022\CI-CD\DBPPSCICD.json"
+
+

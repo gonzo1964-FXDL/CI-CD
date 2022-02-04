@@ -1,0 +1,55 @@
+{
+  "DBPPSCICD": {
+    "Type": "SimpleFolder",
+    "ControlmServer": "DESKTOP-HD1D0GC",
+    "SiteStandard": "Global",
+    "OrderMethod": "Manual",
+    "JOBCICDA": {
+      "Type": "Job:Command",
+      "SubApplication": "API-RUN",
+      "Host": "DESKTOP-HD1D0GC",
+      "CreatedBy": "mspruck",
+      "Description": "Add Comment",
+      "RunAs": "ctmprd",
+      "Application": "API-RUN",
+      "Command": "echo \"Hello World\"",
+      "When": {
+        "WeekDays": [
+          "NONE"
+        ],
+        "MonthDays": [
+          "NONE"
+        ],
+        "DaysRelation": "OR"
+      }
+    }
+  }
+}
+{
+  "DBPPSCICD": {
+    "Type": "SimpleFolder",
+    "ControlmServer": "DESKTOP-HD1D0GC",
+    "SiteStandard": "Global",
+    "OrderMethod": "Manual",
+    "JOBCICDA": {
+      "Type": "Job:Script",
+      "SubApplication": "CICD",
+      "FileName": "DBPPSCICD.bat",
+      "Host": "DESKTOP-HD1D0GC",
+      "FilePath": "D:\\X-Work\\Home\\6 - Daily Action\\Documents\\2022\\CI-CD",
+      "CreatedBy": "mspruck",
+      "Description": "Add Comment",
+      "RunAs": "ctmprd",
+      "Application": "CICD",
+      "When": {
+        "WeekDays": [
+          "NONE"
+        ],
+        "MonthDays": [
+          "NONE"
+        ],
+        "DaysRelation": "OR"
+      }
+    }
+  }
+}
